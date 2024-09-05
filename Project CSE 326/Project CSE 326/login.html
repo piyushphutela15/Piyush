@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>login</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <nav>
+                <div>
+                    <div class="logo">
+                        <a href="index.html">EduCera</a>
+                    </div>
+                </div>
+                <div class="nav-menu">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="Online_Class.html">Videos</a>
+                        </li>
+                        <li>
+                            <a href="Study Material.html">Tutors</a>
+                        </li>
+                        <li>
+                            <a href="notes.html">Test Yourself</a>
+                        </li>
+                        <li>
+                            <a href="Contact_us.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="login.html" class="btn dark">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="wrapper">
+        <form action="/backend.php" method="post" class="login-form">
+            <div class="login">
+                <div>
+                    <h1 class="loginid text">Log In</h1>
+                </div>
+                <div>
+                    <p>
+                        Need an Account? <a href="signup.html" class="forgot">Sign UP</a>
+                    </p>
+                </div>
+                <div class="loginid">
+                    <input type="name" name="username" id="username" placeholder="Username">
+                </div><br>
+                <div class="loginid">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </div><br>
+                <div>
+                    <a href="index.html" class="btn login">Login</a><br>
+                </div>
+                <div class="forgot1">
+                    <a href="#" class="forgot">Forgot Password?</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <div class="links-container">
+                <div class="links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li>
+                            <a href="about_us.html">About US</a>
+                        </li>
+                        <li>
+                            <a href="privacy_policy.html">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h3>Other Links</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Feedback</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Offers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h3>Email Us</h3>
+                    <ul>
+                        <li class="email">
+                            contact@educera.com
+                        </li>
+                        <div class="social">
+                            <a href="#">
+                                <img src="images/Facebook_Logo.png" alt="" width="40px" height="40px" />
+                            </a>
+                            <a href="#">
+                                <img src="images/instagram-logo.png" alt="" width="40px" height="40px" />
+                            </a>
+                        </div>
+                        <form action="#" class="subscribe">
+                            <input type="text" placeholder="Email Address">
+                            <button class="submit-btn">Subscribe</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">All Right Reserved Copyright ©EduCera.com</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
